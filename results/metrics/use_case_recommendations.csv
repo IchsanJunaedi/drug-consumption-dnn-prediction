@@ -1,0 +1,7 @@
+Use Case,Best Model,Rationale
+Clinical Screening (Hospital),Random Forest,Interpretability + Clinical adoption
+Research Study,DNN Tuned,Maximum performance
+Mobile App Deployment,Random Forest,Lightweight + Fast
+Real-time Prediction API,Random Forest,Speed + Reliability
+Regulatory Submission,Random Forest,Explainability required
+Academic Publication,Both (compare),Comprehensive comparison

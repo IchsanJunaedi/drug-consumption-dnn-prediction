@@ -1,0 +1,53 @@
+{
+    "model_evaluated": "DNN Baseline",
+    "evaluation_date": "2025-12-15 00:18:23",
+    "cross_validation": {
+        "n_folds": 5,
+        "metrics": {
+            "accuracy_mean": 0.8291777188328912,
+            "accuracy_std": 0.01890560178377237,
+            "roc_auc_mean": 0.9032604135451004,
+            "roc_auc_std": 0.024083090305869484,
+            "f1_score_mean": 0.859060496955475,
+            "f1_score_std": 0.014963140616303414
+        },
+        "stability": "good"
+    },
+    "feature_importance": {
+        "method": "SHAP",
+        "top_5_features": [
+            "country_USA",
+            "country_UK",
+            "Age_Encoded",
+            "Oscore",
+            "Gender_Encoded"
+        ],
+        "top_5_importance": [
+            0.07363760298482665,
+            0.06394625003301596,
+            0.06274793676428507,
+            0.04844136110906592,
+            0.04349026232932191
+        ]
+    },
+    "error_analysis": {
+        "false_positives": 12,
+        "false_negatives": 48,
+        "false_positive_rate": 0.08450704225352113,
+        "false_negative_rate": 0.20425531914893616,
+        "critical_concern": "false_negatives"
+    },
+    "threshold_optimization": {
+        "default_threshold": 0.5,
+        "optimal_f1_threshold": 0.35,
+        "optimal_f1_score": 0.8987854251012146,
+        "optimal_youden_threshold": 0.44000000000000006,
+        "optimal_youden_score": 0.7411747078213966,
+        "recommendation": "Use threshold = 0.35"
+    },
+    "calibration": {
+        "brier_score": 0.1133099259989807,
+        "log_loss": 0.36241345823438526,
+        "calibration_quality": "good"
+    }
+}

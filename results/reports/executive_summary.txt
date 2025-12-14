@@ -1,0 +1,14 @@
+======================================================================
+EXECUTIVE SUMMARY - MODEL COMPARISON
+======================================================================
+
+Analysis Date: 2025-12-13 02:18:52
+
+FINAL RECOMMENDATION: Random Forest
+CONFIDENCE: HIGH
+
+Performance Winner: Random Forest
+ROC-AUC Difference: 0.0004
+Verdict: PRACTICALLY EQUIVALENT
+
+See full report for detailed analysis.

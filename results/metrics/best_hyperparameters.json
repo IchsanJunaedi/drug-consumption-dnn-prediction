@@ -1,0 +1,24 @@
+{
+    "architecture": {
+        "layer_1_units": 128,
+        "layer_2_units": 32,
+        "layer_3_units": 32,
+        "use_layer_4": false,
+        "layer_4_units": null,
+        "total_layers": 3
+    },
+    "regularization": {
+        "dropout_layer_1": 0.3,
+        "dropout_layer_2": 0.3,
+        "dropout_layer_3": 0.2,
+        "dropout_layer_4": null,
+        "l2_regularization": 0.0001,
+        "batch_norm_layer_1": false,
+        "batch_norm_layer_2": true
+    },
+    "optimization": {
+        "optimizer": "adam",
+        "learning_rate": 0.0005,
+        "batch_size": 32
+    }
+}

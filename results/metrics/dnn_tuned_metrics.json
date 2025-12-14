@@ -1,0 +1,56 @@
+{
+    "model_info": {
+        "model_name": "Deep Neural Network - Tuned",
+        "architecture": "128-32-32",
+        "total_parameters": 8545,
+        "training_time_seconds": 13.063577890396118,
+        "training_time_minutes": 0.21772629817326863,
+        "epochs_trained": 71,
+        "hyperparameter_tuning": {
+            "method": "Keras Tuner - RandomSearch",
+            "trials_completed": 50,
+            "search_time_minutes": 1.6645590464274088e-05,
+            "best_trial_id": "46",
+            "best_val_auc": 0.9015606641769409
+        }
+    },
+    "training_metrics": {
+        "accuracy": 0.8580901856763926,
+        "roc_auc": 0.9279779742283488,
+        "precision": 0.909706546275395,
+        "recall": 0.8574468085106383,
+        "f1_score": 0.882803943044907,
+        "specificity": 0.8591549295774648
+    },
+    "test_metrics": {
+        "accuracy": 0.8647214854111406,
+        "roc_auc": 0.9323344321246629,
+        "precision": 0.9181818181818182,
+        "recall": 0.8595744680851064,
+        "f1_score": 0.8879120879120879,
+        "specificity": 0.8732394366197183,
+        "balanced_accuracy": 0.8664069523524123,
+        "cohens_kappa": 0.7178102296910545,
+        "mcc": 0.7202953944654397,
+        "pr_auc": 0.9540549875752026
+    },
+    "confusion_matrix": {
+        "TP": 202,
+        "TN": 124,
+        "FP": 18,
+        "FN": 33
+    },
+    "comparison": {
+        "vs_baseline": {
+            "accuracy_improvement": 0.023872679045092826,
+            "roc_auc_improvement": -0.0025471980821095697,
+            "f1_score_improvement": 0.026160935838355104
+        },
+        "vs_random_forest": {
+            "accuracy_diff": 0.8647214854111406,
+            "roc_auc_diff": 0.9323344321246629,
+            "f1_score_diff": 0.8879120879120879
+        },
+        "final_winner": "DNN Baseline"
+    }
+}

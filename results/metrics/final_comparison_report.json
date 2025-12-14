@@ -1,0 +1,58 @@
+{
+    "analysis_date": "2025-12-13 02:18:52",
+    "models_compared": [
+        "Random Forest",
+        "DNN Baseline",
+        "DNN Tuned"
+    ],
+    "performance_comparison": {
+        "random_forest": {
+            "roc_auc": 0.9347018279892118,
+            "accuracy": 0.8620689655172413,
+            "f1_score": 0.8874458874458875
+        },
+        "dnn_baseline": {
+            "roc_auc": 0.9363500149835181,
+            "accuracy": 0.8673740053050398,
+            "f1_score": 0.8883928571428571
+        },
+        "dnn_tuned": {
+            "roc_auc": 0.9343422235540905,
+            "accuracy": 0.8461538461538461,
+            "f1_score": 0.8693693693693694
+        }
+    },
+    "category_winners": {
+        "performance": "Random Forest",
+        "interpretability": "Random Forest",
+        "deployment": "Random Forest",
+        "robustness": "Random Forest",
+        "computational": "Random Forest"
+    },
+    "final_recommendation": {
+        "selected_model": "Random Forest",
+        "confidence": "HIGH",
+        "performance_difference": 0.0003596044351212857,
+        "performance_verdict": "PRACTICALLY EQUIVALENT",
+        "rationale": "See executive summary for detailed justification"
+    },
+    "trade_offs": {
+        "rf_advantages": [
+            "Superior interpretability",
+            "Easier deployment",
+            "Faster training",
+            "Lower costs",
+            "Better clinical adoption"
+        ],
+        "dnn_advantages": [
+            "Potentially higher accuracy",
+            "Flexible architecture",
+            "Automatic feature learning"
+        ]
+    },
+    "deployment_recommendation": {
+        "primary_model": "Random Forest",
+        "alternative": "Ensemble RF + DNN for maximum performance",
+        "deployment_complexity": "Simple"
+    }
+}

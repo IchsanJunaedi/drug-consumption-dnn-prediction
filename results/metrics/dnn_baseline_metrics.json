@@ -1,0 +1,54 @@
+{
+    "model_info": {
+        "model_name": "Deep Neural Network - Baseline",
+        "architecture": "128-64-32-16",
+        "total_parameters": 14081,
+        "training_time_seconds": 7.266536,
+        "training_time_minutes": 0.12110893333333334,
+        "epochs_trained": 24,
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss_function": "binary_crossentropy",
+        "validation_split": 0.2
+    },
+    "training_metrics": {
+        "accuracy": 0.8169761273209549,
+        "roc_auc": 0.900678004195385,
+        "precision": 0.915,
+        "recall": 0.7787234042553192,
+        "f1_score": 0.8413793103448276,
+        "specificity": 0.8802816901408451
+    },
+    "test_metrics": {
+        "accuracy": 0.8408488063660478,
+        "roc_auc": 0.9348816302067725,
+        "precision": 0.9396984924623115,
+        "recall": 0.7957446808510639,
+        "f1_score": 0.8617511520737328,
+        "specificity": 0.9154929577464789,
+        "balanced_accuracy": 0.8556188192987714,
+        "cohens_kappa": 0.6772628695354412,
+        "mcc": 0.6903292818470582,
+        "pr_auc": 0.9614442373002634
+    },
+    "confusion_matrix": {
+        "TP": 187,
+        "TN": 130,
+        "FP": 12,
+        "FN": 48
+    },
+    "overfitting_analysis": {
+        "accuracy_gap": -0.023872679045092826,
+        "roc_auc_gap": -0.03420362601138749,
+        "f1_score_gap": -0.02037184172890516,
+        "status": "excellent"
+    },
+    "comparison_with_rf": {
+        "accuracy_diff": -0.021220159151193574,
+        "roc_auc_diff": 0.00017980221756075387,
+        "f1_score_diff": -0.02569473537215472,
+        "winner": "TIE",
+        "conclusion": "DNN and RF have COMPARABLE performance"
+    }
+}
